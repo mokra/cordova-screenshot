@@ -2,7 +2,7 @@
 <plugin id="org.apache.cordova.screenshot_copy" version="0.2.0" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android" >
-    <name>Screenshot</name>
+    <name>Screenshot_copy</name>
     <description>screenshot_copy PhoneGap Plugin for Android</description>
     <license>MIT</license>
     <keywords>cordova,screenshot_copy</keywords>
@@ -28,7 +28,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Screenshot">
+            <feature name="Screenshot_copy">
                 <param name="ios-package" value="Screenshot"/>
             </feature>
         </config-file>
